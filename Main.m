@@ -14,7 +14,7 @@ L1 = 1;
 L2 = 1;
 L3 = 1;
 
-FK = simplify(Rz(q1)*Tz(L1)*Ry(q2)*Tx(L2)*Ry(q3)*Tx(q3));
+FK = simplify(Rz(q1)*Tz(L1)*Ry(q2)*Tx(L2)*Ry(q3)*Tx(L3))
 
 % Task 1. Jacobian
 R = simplify(FK(1:3,1:3));
@@ -307,6 +307,14 @@ title('acceleration vs time')
 legend('j_1','j_2','j_3')
 grid on
 axis([0 tf_new -inf inf])
+
+
+% Task 4
+
+
+
+%Visualisation
+
 
 
 

@@ -1,5 +1,6 @@
 # TrajectoryPlanning
 IK:
+  
   q1 = atan2(Y, X)
 
   AB = sqrt((X^2 + Y^2) + (Z - L(1))^2);
